@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #B8B8B8;
+}
+label {
+    font-size: 0.75em;
+}
+#acanvas-div {
+    display: -webkit-flex;
+    display: flex;
+}
+#acanvas {
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+}
+#metrics {
+    position: relative;
+    background-color: black;
+    top: -1.5em;
+    left: 0em;
+    right: 0em;
+    height: 1.2em;
+}
+#metrics label {
+    color: white;
+    margin-left: 0.8em;
+    word-wrap: break-word;
+}
+#pause {
+    position: relative;
+    top: -5.5em;
+    left: 0.5em;
+    margin: 0;
+    padding: 0.2em;
+}
+#key-message {
+    position: relative;
+    left: 5em;
+    top: -6em;
+    margin: 0;
+}
+#key-message label span {
+    color: red;   
+}
