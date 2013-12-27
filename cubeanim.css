@@ -2,6 +2,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #B8B8B8;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+div {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 label {
     font-size: 0.75em;
@@ -16,9 +22,9 @@ label {
     border: 1px solid black;
 }
 #metrics {
-    position: relative;
+    position: fixed;
     background-color: black;
-    top: -1.5em;
+    bottom: 0.5em;
     left: 0em;
     right: 0em;
     height: 1.2em;
@@ -29,16 +35,16 @@ label {
     word-wrap: break-word;
 }
 #pause {
-    position: relative;
-    top: -5.5em;
+    position: fixed;
+    bottom: 2.5em;
     left: 0.5em;
     margin: 0;
     padding: 0.2em;
 }
 #key-message {
-    position: relative;
+    position: fixed;
     left: 5em;
-    top: -6em;
+    bottom: 2.3em;
     margin: 0;
 }
 #key-message label span {

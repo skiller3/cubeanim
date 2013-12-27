@@ -127,8 +127,8 @@ function handleKeydown(keyEvent) {
  *******************************************************************/
 function startAnimation() {
     if (typeof $ !== "undefined" && typeof _ !== "undefined") {
-        var screenDim = Math.min($(window).width(), $(window).height()) - 40;
-        $("body").attr("width", screenDim).attr("height", screenDim);
+        var screenDim = Math.min($(window).width(), $(window).height());
+        // $("body").attr("width", screenDim).attr("height", screenDim);
         $("#acanvas-div").attr("width", screenDim - 1).attr("height", screenDim - 1);
         $("#acanvas").attr("width", screenDim - 2).attr("height", screenDim - 2);
 
@@ -337,4 +337,4 @@ function runAnimation() {
     }, 5));
 }
 
-startAnimation();
+$(document).ready(startAnimation);
