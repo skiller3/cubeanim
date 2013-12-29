@@ -1,0 +1,1 @@
+This is a simple 3D animation of a cube with limited user controls.  This served as an excuse to play with HTML5's canvas element.
